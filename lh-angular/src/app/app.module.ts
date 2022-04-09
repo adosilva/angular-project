@@ -10,6 +10,7 @@ import { PainelVagasComponent } from './painel-vagas/painel-vagas.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { LhAngularMasterComponent } from './lh-angular-master/lh-angular-master.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     MuralVagasComponent,
     PainelVagasComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    LhAngularMasterComponent
   ],
   imports: [
     BrowserModule,
